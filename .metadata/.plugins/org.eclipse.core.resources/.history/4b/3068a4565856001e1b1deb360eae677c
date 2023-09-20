@@ -1,0 +1,13 @@
+package ejercicio4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Perro perro = new Perro("Perro" , "Canidae", "Marron", "Carne", 15, "Pitbull");
+		Ave ave = new Ave ("Lechuza", "Tytonidae", "Blanco con dorado rojizo", "Ratones", 17, "corto");
+		Pez pez = new Pez ("Pez payazo", "Pomacentridae", "Naranja con blanco y negro" , "Pequeñas algas", 10, "Aguas poco profundas",
+				"Vive en grupo");
+	}
+
+}

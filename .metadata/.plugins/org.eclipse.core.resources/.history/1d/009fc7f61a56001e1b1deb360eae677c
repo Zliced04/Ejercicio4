@@ -1,0 +1,15 @@
+package ejercicio4;
+
+public class Ave extends Animal{
+	private String tipoDePico;
+
+	public Ave(String nombre, String familia, String color, String dieta, String vida, String tipoDePico) {
+		super(nombre, familia, color, dieta, vida);
+		this.tipoDePico = tipoDePico;
+	}
+
+	
+	
+	
+
+}

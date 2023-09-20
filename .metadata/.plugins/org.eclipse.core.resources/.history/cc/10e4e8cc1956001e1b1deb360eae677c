@@ -1,0 +1,18 @@
+package ejercicio4;
+
+public class Perro extends Animal{
+	private String raza;
+
+	
+	public Perro(String nombre, String familia, String color, String dieta, String vida, String raza) {
+		super(nombre, familia, color, dieta, vida);
+		this.raza = raza;
+	}
+
+	@Override
+	public void comer() {
+		System.out.println("El" + this.getNombre() + "de raza" + raza +"se alimenta de: " + dieta);
+	}
+	
+
+}

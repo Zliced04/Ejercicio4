@@ -1,0 +1,19 @@
+package ejercicio4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Perro perro = new Perro( "Perro", "Canidos", "Variado", "Croquetas", "20", "Raza" );
+		
+		perro.comer();
+		perro.ladrar();
+		
+		Ave ave = new Ave( "Perro", "Canidos", "Variado", "Croquetas", "20", "Pico" );
+		
+		ave.comer();
+
+	}
+
+}

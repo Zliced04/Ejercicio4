@@ -1,0 +1,44 @@
+package ejercicio4;
+
+public class Ave extends Animal{
+	String tipoDePico;
+
+	public Ave(String especie, String familia, String color, String dieta, int vida, String tipoDePico) {
+		super(especie, familia, color, dieta, vida);
+		this.tipoDePico = tipoDePico;
+	}
+	
+	@Override
+	public void comer() {
+		System.out.println("La" + especie + "se alimenta de " + dieta);
+	}
+	@Override
+	public void dormir() {
+		System.out.println("Duerme durante toda la mañana y tarde");
+	}
+	
+	@Override
+	public void hacerSonido() {
+		System.out.println("Chilla, Alarida");
+	}
+
+	public void volar() {
+		System.out.println("Vuela");
+	}
+	
+	public void cantar() {
+		System.out.println("No canta");
+	}
+	
+	public String getTipoDePico() {
+		return tipoDePico;
+	}
+
+	public void setTipoDePico(String tipoDePico) {
+		this.tipoDePico = tipoDePico;
+	}
+	
+	
+	
+	
+}

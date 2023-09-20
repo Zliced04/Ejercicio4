@@ -1,0 +1,10 @@
+package ejercicio4;
+
+public class Pez extends Animal {
+	String habitat;
+
+	
+	
+	
+
+}

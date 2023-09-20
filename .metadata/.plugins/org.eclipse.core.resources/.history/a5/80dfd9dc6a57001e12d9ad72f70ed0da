@@ -1,0 +1,50 @@
+package ejercicio4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Perro perro = new Perro("Perro" , "Canidae", "Marron", "Carne", 15, "Pitbull");
+		Ave ave = new Ave ("Lechuza", "Tytonidae", "Blanco con dorado rojizo", "Ratones", 17, "corto");
+		Pez pez = new Pez ("Pez payazo", "Pomacentridae", "Naranja con blanco y negro" , "Pequeñas algas", 10, "Aguas poco profundas",
+				"Vive en grupo");
+		
+		System.out.println(perro.getEspecie());
+		System.out.println("Raza: " + perro.getRaza());
+		System.out.println("Familia: " + perro.getFamilia());
+		System.out.println("Color: " + perro.getColor());
+		perro.envejecer();
+		System.out.println("Comportamientos: ");
+		perro.comer();
+		perro.dormir();
+		perro.hacerSonido();
+		perro.jugar();
+		perro.cazar();
+		perro.cuidar();
+		
+		System.out.println(ave.getEspecie());
+		System.out.println("Familia: " + ave.getFamilia());
+		System.out.println("Color: " + ave.getColor());
+		System.out.println("Tipo de pico: " + ave.getTipoDePico());
+		ave.envejecer();
+		System.out.println("Comportamientos: ");
+		ave.comer();
+		ave.dormir();
+		ave.hacerSonido();
+		ave.volar();
+		ave.cantar();
+		
+		System.out.println(pez.getEspecie());
+		System.out.println("Familia: " + pez.getFamilia());
+		System.out.println("Color: " + pez.getColor());
+		System.out.println("Habitat: " + pez.getHabitat());
+		System.out.println("Comportamiento: " + pez.getComportamiento());
+		ave.envejecer();
+		System.out.println("Comportamientos: ");
+		pez.comer();
+		pez.dormir();
+		pez.hacerSonido();
+		pez.nadar();
+	}
+
+}

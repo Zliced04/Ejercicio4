@@ -1,0 +1,34 @@
+package ejercicio4;
+
+public class Animal {
+	private String nombre;
+	private String familia;
+	private String color;
+	private String dieta;
+	private String vida;
+	
+	public Animal(String nombre, String familia, String color, String dieta, String vida) {
+		this.nombre = nombre;
+		this.familia = familia;
+		this.color = color;
+		this.dieta = dieta;
+		this.vida = vida;
+	}
+
+	public void comer() {
+		System.out.println("El" + nombre + "se alimenta de: " + dieta);
+		
+	}
+	
+	public void envejecer() {
+		System.out.println("La esperanza de vida del"+ nombre + "es de:" + vida);
+	}
+	
+	public getNombre(){
+		return this.nombre;
+	}
+	
+	
+	
+
+}

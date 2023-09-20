@@ -1,0 +1,46 @@
+package ejercicio4;
+
+public class Perro extends Animal{
+	
+	String raza;
+	
+	public Perro(String especie, String familia, String color, String dieta, int vida, String raza) {
+		super(especie, familia, color, dieta, vida);
+		this.raza = raza;
+	}
+	@Override
+	public void comer() {
+		System.out.println("El"+ especie + "de raza" + raza + "se alimenta de" + dieta);
+	}
+	
+	@Override
+	public void dormir() {
+		System.out.println("Puede llegar a dormir un total 12 o 14 horas ");
+	}
+	
+	@Override
+	public void hacerSonido() {
+		System.out.println("Ladra");
+	}
+	
+	public void jugar(){
+		System.out.println("juega");
+	}
+	public void cazar() {
+		System.out.println("Caza");
+	}
+	public void cuidar() {
+		System.out.println("Protege a sus dueños y a la vivienda");
+	}
+
+	public String getRaza() {
+		return raza;
+	}
+
+	public void setRaza(String raza) {
+		this.raza = raza;
+	}
+	
+	
+
+}

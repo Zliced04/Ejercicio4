@@ -1,0 +1,17 @@
+package ejercicio4;
+
+public class Perro extends Animal{
+	private String raza;
+	
+	public Perro(String especie, String familia, String color, String dieta, int vida, String raza) {
+		super(especie, familia, color, dieta, vida);
+		this.raza = raza;
+	}
+	
+	public 
+
+	public void ladrar(){
+		System.out.println("Ladra");
+	}
+
+}
